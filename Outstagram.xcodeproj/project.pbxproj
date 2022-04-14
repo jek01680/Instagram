@@ -19,6 +19,7 @@
 		32E02E1B2806985E007BFBAC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E02E1A2806985E007BFBAC /* ProfileViewController.swift */; };
 		32E02E1D2806D118007BFBAC /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E02E1C2806D118007BFBAC /* ProfileDataView.swift */; };
 		32E02E212806DDE3007BFBAC /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E02E202806DDE3007BFBAC /* ProfileCollectionViewCell.swift */; };
+		32EBA7A92807C7DA004C8397 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA7A82807C7DA004C8397 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		32E02E1A2806985E007BFBAC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		32E02E1C2806D118007BFBAC /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
 		32E02E202806DDE3007BFBAC /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		32EBA7A82807C7DA004C8397 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				32E02E0028067B99007BFBAC /* FeedViewController.swift */,
+				32EBA7A82807C7DA004C8397 /* UploadViewController.swift */,
 				32E02E16280681B4007BFBAC /* FeedTableViewCell.swift */,
 			);
 			path = Feed;
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32E02E0128067B99007BFBAC /* FeedViewController.swift in Sources */,
+				32EBA7A92807C7DA004C8397 /* UploadViewController.swift in Sources */,
 				32E02E212806DDE3007BFBAC /* ProfileCollectionViewCell.swift in Sources */,
 				32E02E1928068882007BFBAC /* UIButton+.swift in Sources */,
 				32E02E1428067D57007BFBAC /* TabBarController.swift in Sources */,
