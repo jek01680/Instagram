@@ -52,6 +52,7 @@ final class LoginViewController: UIViewController {
         button.titleLabel?.font = .systemFont(ofSize: 18, weight: .semibold)
         button.titleLabel?.textColor = .white
         button.layer.cornerRadius = 10
+        button.addTarget(self, action: #selector(didTapLoginButton), for: .touchUpInside)
         
         return button
     }()
@@ -72,11 +73,14 @@ final class LoginViewController: UIViewController {
         return label
     }()
     
-    private lazy var registerLabel: UILabel = {
-        let label = UILabel()
-        label.text = "가입하기"
-        label.textColor = .systemBlue
-        return label
+    private lazy var registerButton: UIButton = {
+        let button = UIButton()
+        button.setTitle("가입하기", for: .normal)
+        button.setTitleColor(UIColor.systemBlue, for: .normal)
+        button.backgroundColor = .systemBackground
+        button.addTarget(self, action: #selector(didTapRegister), for: .touchUpInside)
+        
+        return button
     }()
     
     override func viewDidLoad() {
@@ -88,13 +92,23 @@ final class LoginViewController: UIViewController {
 }
 
 private extension LoginViewController {
+    @objc func didTapLoginButton(){
+        let vc = TabBarController()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
+    
+    @objc func didTapRegister(){
+        
+    }
+    
     func setupLayout(){
         let separator = SeparatorView()
         let separator2 = SeparatorView()
         
-        let stackView = UIStackView(arrangedSubviews: [registerQLabel, registerLabel])
+        let stackView = UIStackView(arrangedSubviews: [registerQLabel, registerButton])
         stackView.axis = .horizontal
-        stackView.spacing = 4
+        stackView.spacing = 10
         
         [
             titleLabel,
@@ -165,5 +179,6 @@ private extension LoginViewController {
             $0.centerX.equalTo(loginButton.snp.centerX)
             $0.bottom.equalTo(view.safeAreaLayoutGuide).inset(inset)
         }
+        
     }
 }
