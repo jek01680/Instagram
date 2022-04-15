@@ -20,6 +20,9 @@
 		32E02E1D2806D118007BFBAC /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E02E1C2806D118007BFBAC /* ProfileDataView.swift */; };
 		32E02E212806DDE3007BFBAC /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E02E202806DDE3007BFBAC /* ProfileCollectionViewCell.swift */; };
 		32EBA7A92807C7DA004C8397 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA7A82807C7DA004C8397 /* UploadViewController.swift */; };
+		32EBA7EE28091688004C8397 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA7ED28091688004C8397 /* LoginViewController.swift */; };
+		32EBA7F1280925D5004C8397 /* SeperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA7F0280925D5004C8397 /* SeperatorView.swift */; };
+		32EBA7F328092B01004C8397 /* UIButton+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBA7F228092B01004C8397 /* UIButton+UITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		32E02E1C2806D118007BFBAC /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
 		32E02E202806DDE3007BFBAC /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		32EBA7A82807C7DA004C8397 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		32EBA7ED28091688004C8397 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		32EBA7F0280925D5004C8397 /* SeperatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeperatorView.swift; sourceTree = "<group>"; };
+		32EBA7F228092B01004C8397 /* UIButton+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+UITextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,8 @@
 				32E02E1328067D57007BFBAC /* TabBarController.swift */,
 				32E02E1E2806D129007BFBAC /* Profile */,
 				32E02E1F2806D12E007BFBAC /* Feed */,
+				32EBA7EF28091698004C8397 /* Login */,
+				32EBA7F428092F33004C8397 /* ETC */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -109,6 +117,23 @@
 				32E02E16280681B4007BFBAC /* FeedTableViewCell.swift */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		32EBA7EF28091698004C8397 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				32EBA7ED28091688004C8397 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		32EBA7F428092F33004C8397 /* ETC */ = {
+			isa = PBXGroup;
+			children = (
+				32EBA7F0280925D5004C8397 /* SeperatorView.swift */,
+				32EBA7F228092B01004C8397 /* UIButton+UITextField.swift */,
+			);
+			path = ETC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +222,9 @@
 				32E02DFF28067B99007BFBAC /* SceneDelegate.swift in Sources */,
 				32E02E1D2806D118007BFBAC /* ProfileDataView.swift in Sources */,
 				32E02E17280681B4007BFBAC /* FeedTableViewCell.swift in Sources */,
+				32EBA7F328092B01004C8397 /* UIButton+UITextField.swift in Sources */,
+				32EBA7F1280925D5004C8397 /* SeperatorView.swift in Sources */,
+				32EBA7EE28091688004C8397 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
